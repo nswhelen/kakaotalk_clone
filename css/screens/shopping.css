@@ -1,0 +1,117 @@
+.screen-header {
+  margin-bottom: 0;
+}
+
+.main-screen__search {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+.main-screen__option {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+.main-screen__option span:nth-child(2) {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.main-screen__option span {
+  cursor: pointer;
+}
+
+.shopping-list__header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-list__header span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shopping-list img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.shopping-list__top,
+.shopping-list__bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.shopping-list__top div,
+.shopping-list__bottom div {
+  position: relative;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.shopping-list div .fa-heart {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  font-size: 20px;
+  color: #ff6b6b;
+}
+
+.shopping-list__top div:hover i,
+.shopping-list__bottom div:hover i {
+  display: block;
+}
+
+.shopping-list__top div:hover,
+.shopping-list__bottom div:hover {
+  text-decoration: underline;
+}
+
+.shopping-list__top div span,
+.shopping-list__bottom div span {
+  display: block;
+  margin-top: 5px;
+}
+
+.shopping-list__price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+/* Button styling for pagination */
+.pagination-btn__prev,
+.pagination-btn__next {
+  border-radius: 5px;
+  background-color: white;
+  width: 50px;
+  border-color: var(--subtitle-color);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pagination-text {
+  font-size: 16px;
+}

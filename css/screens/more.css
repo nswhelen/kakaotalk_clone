@@ -1,0 +1,116 @@
+.wallet {
+  background-color: var(--yellow);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.wallet div {
+  padding: 0px 20px;
+}
+
+.wallet-top {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.wallet-middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefce5;
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px 10px;
+  font-size: 18px;
+}
+
+.wallet-bottom {
+  display: flex;
+  margin: 40px 0 10px 0;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.wallet-bottom__right i {
+  margin-right: 5px;
+}
+
+.icon-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px 30px;
+  gap: 90px;
+}
+
+.row {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 60px;
+}
+
+.icon-navigation i {
+  font-size: 50px;
+  text-align: center;
+}
+
+.icon-navigation span {
+  display: flex;
+  margin-top: 40px;
+  font-size: 14px;
+  color: var(--subtitle-color);
+  text-align: center;
+}
+
+.more-ads {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+
+.more-ads img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.more-ads span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 50%;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .icon-navigation {
+    gap: 60px;
+  }
+}
